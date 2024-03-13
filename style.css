@@ -1,0 +1,68 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    filter: drop-shadow(5px 3px 3px black);
+}
+
+h2 {
+    margin-bottom: 0
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border: 7px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    box-shadow: 4px 3px 7px black;
+}
+
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
+
+.wrng {
+    background-color: red;
+}
